@@ -12,7 +12,7 @@ const Checkbox = () => {
         { title: 'Include Special Characters', checked: false },
     ])
 
-    const [length,setLength]=useState(4)
+    // const [length,setLength]=useState(4)
 
     const { password, errorMsg, generatePassword } = usePasswordGenerate()
 
