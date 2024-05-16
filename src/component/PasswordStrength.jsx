@@ -20,7 +20,7 @@ const PasswordStrength = ({password}) => {
       return 'Strong'
     }
     else {
-      return 'Very Very Strong'
+      return 'Very Strong'
     }
   }
 
