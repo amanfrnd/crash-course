@@ -17,16 +17,16 @@ const usePasswordGenerate = () => {
 
         selectedOption.forEach((option) => {
             switch (option.title) {
-                case 'Include UpperCase Letters':
+                case 'Choose UpperCase Letters':
                     charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
                     break;
-                case 'Include LowerCase Letters':
+                case 'Choose LowerCase Letters':
                     charset += 'abcdefghijklmnopqrstuvwxyz'
                     break;
-                case 'Include Numbers':
+                case 'Choose Numbers':
                     charset += '0123456789'
                     break;
-                case 'Include Special Characters':
+                case 'Choose Special Characters':
                     charset += '@#$%^&*()!'
                     break;
                 default:
