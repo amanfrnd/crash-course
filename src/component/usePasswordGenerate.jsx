@@ -35,8 +35,8 @@ const usePasswordGenerate = () => {
         })
 
         for (let i = 0; i < length; i++) {
-            const randomIndex = Math.floor(Math.random() * charset.length)
-            generatePass += charset[randomIndex]
+            const randomIdx = Math.floor(Math.random() * charset.length)
+            generatePass += charset[randomIdx]
         }
         setPassword(generatePass)
         setErrorMsg('')
