@@ -4,7 +4,11 @@ const PasswordStrength = ({password}) => {
   const passwordLength=password.length
 
   const checkStrength = () => {
+<<<<<<< HEAD
     console.log(passwordLength)
+=======
+    console.log("1")
+>>>>>>> origin/aman-changes
     if(passwordLength < 1){
       return ''
     }
