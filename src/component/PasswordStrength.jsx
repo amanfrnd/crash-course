@@ -4,6 +4,7 @@ const PasswordStrength = ({password}) => {
   const passwordLength=password.length
 
   const checkStrength = () => {
+    console.log("1")
     if(passwordLength < 1){
       return ''
     }
